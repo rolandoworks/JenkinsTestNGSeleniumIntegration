@@ -17,7 +17,7 @@ public class SampleSeleniumTest {
 	
 	@BeforeClass
 	public void startBrowser() {
-		System.setProperty("webdriver.chrome.driver", "chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "bin/chromedriver_linux64/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setBinary("/usr/bin/google-chrome-stable");
 		chromeOptions.addArguments("--headless");
