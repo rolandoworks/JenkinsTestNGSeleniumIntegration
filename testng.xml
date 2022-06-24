@@ -4,7 +4,12 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.rdiaz.training.testng.CalcTest"/>
-      <class name="com.rdiaz.training.testng.SampleSeleniumTest"/>
+      <class name="com.rdiaz.training.testng.SampleSeleniumTest">
+      	<methods>
+      		<exclude name="startBrowser" />
+      		<exclude name="closeBrowser" />
+      	</methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
