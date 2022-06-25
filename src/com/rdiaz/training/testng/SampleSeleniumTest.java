@@ -1,6 +1,5 @@
 package com.rdiaz.training.testng;
 
-import java.util.Arrays;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
